@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(220, 15%, 55%);
+    display: grid;
+    place-items: center;
+}
+.container-qr{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 48vh;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.img-qr{
+    border-radius: 10px;
+    width: 270px;
+    height: 270px;
+}
+.container-info{
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+}
+.title-qr{
+    color: hsl(218, 44%, 22%);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+.description-qr{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(212, 45%, 89%);
+    line-height: 20px;
+}
